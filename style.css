@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(50,85,83);
+    background: linear-gradient(90deg, rgba(50,85,83,1) 0%, rgba(73,153,68,1) 92%);
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7em auto;
+    text-align: center;
+}
