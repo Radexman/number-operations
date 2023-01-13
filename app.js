@@ -18,17 +18,57 @@
 // const updated = browserType.replace('moz', 'van');
 // console.log(updated);
 
-const list = document.querySelector('.output');
-const cities = [
-    'lonDon',
-    'ManCHESTer',
-    'BiRmiNGHAM',
-    'LIVERpool'
-]
+let browserType = 'mozilla';
+browserType = browserType.replace('moz', 'van');
+console.log(browserType);
 
-for (const city of cities) {
-    const result = city;
-    const listItem = document.createElement('li');
-    listItem.textContent = result;
-    list.appendChild(listItem);
+let quote = 'To be or not to be';
+quote = quote.replaceAll('be', 'code');
+console.log(quote);
+
+const list = document.querySelector('.output');
+const greetings = ['happy Birthday!',
+                'Merry Christmas my love',
+                'A happy Christmas to all the family',
+                'You\'re all I want for Christmas',
+                'Get well soon'
+                ];
+
+for (greeting of greetings) {
+    if (greeting.includes('Christmas')) {
+        const listItem = document.createElement('li');
+        listItem.textContent = greeting;
+        list.appendChild(listItem);
+    }
 }
+
+// const firstQuote = 'I dO nOT lIke gREen eGgS anD HAM';
+
+// const prpCase = firstQuote[0].toUpperCase() + firstQuote.slice(1).toLowerCase();
+// console.log(prpCase);
+
+// console.log(prpCase.replace('green eggs and ham', 'golonko and wątróbka') + '.');
+
+// const theorem = 'Pythagorean theorem';
+// const a = 5;
+// const b = 8;
+
+// const myString = `Using ${theorem}, we can work out that that if the two shortest sides of a right-angled triangle have lengths of ${a} and ${b}, the length of the hypotenuse is ${a * b}.`;
+
+// console.log(myString);
+
+const cite = 'thEre ArE No sHoRtcuTS TO aNY PlACE Worth GoInG';
+
+const toProperCase = (string) => {
+    return string[0].toUpperCase() + string.slice(1).toLowerCase();
+}
+
+console.log(toProperCase(cite));
+
+console.log(Math.floor(Math.random() * 100 + 1))
+
+const getRandomChar = (string)  => {
+    return string.charAt(Math.floor(Math.random() * string.length))
+}
+
+console.log(getRandomChar(cite));
