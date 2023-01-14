@@ -57,18 +57,27 @@ for (greeting of greetings) {
 
 // console.log(myString);
 
-const cite = 'thEre ArE No sHoRtcuTS TO aNY PlACE Worth GoInG';
+// const cite = 'thEre ArE No sHoRtcuTS TO aNY PlACE Worth GoInG';
 
-const toProperCase = (string) => {
-    return string[0].toUpperCase() + string.slice(1).toLowerCase();
-}
+// const toProperCase = (string) => {
+//     return string[0].toUpperCase() + string.slice(1).toLowerCase();
+// }
 
-console.log(toProperCase(cite));
+// console.log(toProperCase(cite));
 
-console.log(Math.floor(Math.random() * 100 + 1))
+// console.log(Math.floor(Math.random() * 100 + 1))
 
-const getRandomChar = (string)  => {
-    return string.charAt(Math.floor(Math.random() * string.length))
-}
+// const getRandomChar = (string)  => {
+//     return string.charAt(Math.floor(Math.random() * string.length))
+// }
 
-console.log(getRandomChar(cite));
+// console.log(getRandomChar(cite));
+
+const shopping = ['bread',
+            'milk',
+            'cheese',
+            'hummus',
+            'noodles'
+        ];
+
+console.log(shopping);
