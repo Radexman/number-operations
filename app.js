@@ -73,11 +73,45 @@ for (greeting of greetings) {
 
 // console.log(getRandomChar(cite));
 
-const shopping = ['bread',
-            'milk',
-            'cheese',
-            'hummus',
-            'noodles'
-        ];
+// const shopping = ['bread', 'milk', 'cheese', 'hummus', 'noodles'];
+// shopping.shift();
 
-console.log(shopping);
+// for (product of shopping) {
+//     console.log(product);
+// }
+
+// function double(number) {
+//     return number * 2;
+// }
+
+// const numbers = [2, 3, 4, 5, 6];
+// const doubles = numbers.map(double);
+// console.log(doubles); 
+
+// function startsWithL(city) {
+//     return city[0] === 'L';
+// }
+
+// let cities = ['London', 'Liverpool', 'Totnes', 'Edinburgh'];
+// let lCities = cities.filter(startsWithL);
+// console.log(lCities);
+
+// const data = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
+// const newCities = data.split(',');
+// console.log(newCities.length);
+// console.log(newCities[0]);
+// console.log(newCities[1]);
+// console.log(newCities[newCities.length - 1]);
+
+// const commaSeparated = newCities.join(',');
+// console.log(commaSeparated);
+
+// const dogNames = ['Nutka', 'Rocket','Flash','Bella','Slugger'];
+// const dogString = dogNames.toString();
+// console.log(dogString);
+
+// Get list element
+// make ahopping list array
+// separate name from price
+// display name and price on page
+
